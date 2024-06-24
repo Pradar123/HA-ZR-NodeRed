@@ -2,7 +2,10 @@
     "name": "HA-ZR-NodeRed",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-home-assistant-websocket": "0.63.0",
+        "node-red-contrib-toggle": "0.1.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
